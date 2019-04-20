@@ -40,6 +40,7 @@ def merge_data(keys, data)
         new_stats = stats.zip(new_stats)
       end
     end
+    new_stats
       
     
 end
