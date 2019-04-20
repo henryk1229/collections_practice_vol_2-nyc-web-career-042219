@@ -33,14 +33,13 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  data.each do |name, stats_hash|
+  data[0].map do |name, stats_hash|
     new_stats_hash = {}
     keys.each do |new_hash|
-      if new_hash[:first_name] == name 
-        new_stats_hash = stats_hash.zip(new_hash)
+      if new_hash[:first_name] == name
+        new_stats_hash = stats_hash.merge(new_hash)
       end
     end
-
-   new_stats_hash
- end 
+    new_stats_hash
+  end
 end
