@@ -45,12 +45,14 @@ def merge_data(keys, data)
 end
 
 def find_cool(array)
+  new_array = []
   array.each do |value|
     value.each do |name, temperature|
       if temperature == "cool"
-        return value 
+        new_array << value 
       end
     end
   end
+  new_array
       
 end
