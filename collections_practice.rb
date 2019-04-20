@@ -36,7 +36,8 @@ def merge_data(keys, data)
   data.each do |name, stats|
     new_hash = {}
     keys.each do |new_stats|
-      if new_stats[:first_name]
+      if new_stats[:first_name] == name 
+        
       
     
 end
