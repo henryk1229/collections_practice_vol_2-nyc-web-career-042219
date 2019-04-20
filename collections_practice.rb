@@ -61,7 +61,7 @@ def organize_schools(schools)
   schools.each do |dev_school, location_hash|
     location = location_hash[:location]
     if new_hash[location]
-      new_hash[location]
+      new_hash[location] << dev_school
       
     end
   end
