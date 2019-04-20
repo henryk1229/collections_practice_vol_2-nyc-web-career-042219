@@ -62,6 +62,8 @@ def organize_schools(schools)
     location = location_hash[:location]
     if new_hash[location]
       new_hash[location] << dev_school
+    else
+      
       
     end
   end
