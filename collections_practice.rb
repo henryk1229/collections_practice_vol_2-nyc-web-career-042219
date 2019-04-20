@@ -40,7 +40,7 @@ def merge_data(keys, data)
         new_stats_hash = stats_hash.zip(new_stats_hash)
       end
     end
-  end
-  new_stats_hash
-    
+
+   new_stats_hash
+ end 
 end
