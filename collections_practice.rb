@@ -59,8 +59,9 @@ end
 def organize_schools(schools)
   schools.each do |dev_school, location_hash|
     location_hash.each do |location_key, location|
-      location.sort 
+      return location
     end
   end
 end
+
 
