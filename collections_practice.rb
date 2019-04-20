@@ -34,6 +34,6 @@ end
 
 def merge_data(keys, data)
   data.map { |key, value| key[keys] }
-  
+  data 
     
 end
