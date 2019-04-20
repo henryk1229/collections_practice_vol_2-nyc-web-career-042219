@@ -38,6 +38,8 @@ def merge_data(keys, data)
     keys.each do |new_stats|
       if new_stats[:first_name] == name 
         new_stats = stats.zip(new_stats)
+      end
+    end
       
     
 end
