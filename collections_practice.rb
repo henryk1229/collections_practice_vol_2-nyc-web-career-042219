@@ -57,6 +57,7 @@ def find_cool(array)
 end
 
 def organize_schools(schools)
+  new_hash = {}
   schools.each do |dev_school, location_hash|
     location_hash.each do |location_key, location_string|
       
