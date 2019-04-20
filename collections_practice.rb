@@ -62,6 +62,7 @@ def organize_schools(schools)
       location
     end
   end
+  schools
 end
 
 
