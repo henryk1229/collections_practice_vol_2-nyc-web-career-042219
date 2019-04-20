@@ -34,5 +34,6 @@ end
 
 def merge_data(keys, data)
   data.each do |name, properties|
+    new_hash = {}
     
 end
