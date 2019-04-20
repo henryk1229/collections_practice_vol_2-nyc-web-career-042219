@@ -59,7 +59,7 @@ end
 def organize_schools(schools)
   new_hash = {}
   schools.each do |dev_school, location_hash|
-    location_hash.each do |location_key, location_string|
+    location = location_hash[:l]
       
     end
   end
