@@ -43,3 +43,7 @@ def merge_data(keys, data)
     new_stats_hash
   end
 end
+
+def find_cool(element)
+  element
+end
