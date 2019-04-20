@@ -37,9 +37,9 @@ def merge_data(keys, data)
     new_hash = {}
     keys.each do |new_stats_hash|
       if new_stats_hash[:first_name] == name 
-        new_hash = stats_hash.zip(new_stats)
+        new_hash = stats_hash.zip(new_stats_hash)
       end
     end
-    new_stats
+    new_stats_hash
     
 end
